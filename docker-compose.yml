@@ -1,0 +1,9 @@
+version: "3.7"
+services:
+  yandex-last:
+    image: vovan/yandex-last
+    build: 
+      context: ./image
+      network: host
+
+
